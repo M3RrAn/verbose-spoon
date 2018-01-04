@@ -1,0 +1,4 @@
+        Button btnTabortRymdskepp = new Button("Rymdskepp");
+        btnTabortRymdskepp.setOnAction(e ->{
+            TabortListvy.displayTabort("Rymdskepp", "Skeppsnamn");
+        });
